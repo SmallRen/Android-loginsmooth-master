@@ -64,7 +64,6 @@ public class LoginActivity extends FragmentActivity implements View.OnClickListe
         iv_show_pwd = (ImageView) findViewById(R.id.iv_show_pwd);
         btn_login = (Button) findViewById(R.id.btn_login);
         forget_password = (TextView) findViewById(R.id.forget_password);
-        service = findViewById(R.id.service);
         body = findViewById(R.id.body);
         screenHeight = this.getResources().getDisplayMetrics().heightPixels; //获取屏幕高度
         root = findViewById(R.id.root);
